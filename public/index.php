@@ -20,6 +20,6 @@ $app->put("/", function () {
 $app->get("/zombies", function () {
     echo "Welcome to Florida!";
     echo "<img src='http://lorempixel.com/1000/700/' />";
-})
+});
 
 $app->run();
