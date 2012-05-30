@@ -40,7 +40,10 @@ etc.
 
 In each route, you can pass a function that will return data (usually from a database) based on the critera passed (like :id and :name, etc).
 
-If you uncomment the code in public/index.php and run from terminal the following: 
+If you run from terminal the following: 
 * `$ curl -i -X GET fun.api`
 * `$ curl -i -X POST fun.api`
 * `$ curl -i -X PUT fun.api`
+* `$ curl -i -X GET fun.api/zombies`
+
+You should get the hang of how this works, in general.

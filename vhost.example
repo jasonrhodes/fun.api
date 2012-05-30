@@ -17,6 +17,6 @@
 # Make sure that /etc/apache2/httpd.conf includes the httpd-vhosts.conf file -- it's commented out by default
 # Run `$ subl /etc/hosts` and add "127.0.0.1   fun.api" to the end of the file
 # Run `$ sudo apachectl restart`
-# Go to http://fun.api (it should be a blank page with no errors)
+# Go to http://fun.api (it should see "You GOT it.")
 
 # Ta da?
