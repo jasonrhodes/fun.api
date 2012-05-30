@@ -1,0 +1,13 @@
+{
+    "name": "jason/fun.api",
+    "description": "A test run through autoload, slim framework, and building a simple API",
+    "require": {
+        "slim/slim": "1.*"
+    },
+    "authors": [
+        {
+            "name": "Jason Rhodes",
+            "email": "jason.matthew.rhodes@gmail.com"
+        }
+    ]
+}
