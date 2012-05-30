@@ -1,0 +1,20 @@
+<VirtualHost *:80>
+  ServerName fun.api
+  DocumentRoot /Users/jwachter/vhosts/fun.api/public
+  <Directory /Users/jwachter/vhosts/fun.api/public>
+    Options All
+    AllowOverride All
+    Order allow,deny
+    Allow from all
+  </Directory>
+  ErrorLog "/Users/jwachter/vhosts/logs/fun.api_error_log"
+  CustomLog "/Users/jwachter/vhosts/logs/fun.api_access_log" common
+</VirtualHost>
+
+# Make sure all these directories exist
+# Copy this into /etc/apache2/extra/httpd-vhosts.conf
+# Run `$ subl /etc/hosts` and add "127.0.0.1   fun.api" to the end of the file
+# Run `$ sudo apachectl restart`
+# Go to http://fun.api (it should be a blank page with no errors)
+
+# Ta da?
